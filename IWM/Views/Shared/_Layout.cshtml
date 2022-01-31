@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta
+    ============================================= -->
+
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1, max-scale=1" />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="~/Content/templateNovo/css/style.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet" />
+
+    <!-- Favicon
+    ============================================= -->
+
+    <link rel="shortcut icon" href="~/Content/templateNovo/images/general-elements/favicon/estudar-faz-bem-favicon-16.png" />
+    <link rel="apple-touch-icon" href="~/Content/templateNovo/images/general-elements/favicon/estudar-faz-bem-favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Content/templateNovo/images/general-elements/favicon/estudar-faz-bem-favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Content/templateNovo/images/general-elements/favicon/estudar-faz-bem-favicon-114.png" />
+
+    <title>Instituto Equilibrio Wal Mendes</title>
+
+</head>
+
+<body>
+
+
+    <!-- Document Full Container
+    =============================================
+    <div id="full-container">-->
+    <!-- Header
+    ============================================= -->
+    <header id="header" class="style-1 anim-moveleft" data-scroll-index="0">
+
+        <div id="header-wrap">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+
+                        <a class="logo logo-header" href="#">
+                            <img src="~/Content/templateNovo/images/files/efb-logo-color.png" alt="Estudar Faz Bem" />
+                            <h3><span class="colored">Estudar Faz Bem</span></h3>
+                            <span>HTML Template</span>
+                        </a><!-- .logo end -->
+                        <div class="header-menu-and-meta">
+                            <ul id="main-menu" class="main-menu">
+                                <li><a data-scroll-nav="0" href="#header">Home</a></li>
+                                <li><a data-scroll-nav="1" href="#fun-facts">Quem Somos</a></li>
+                                <li><a data-scroll-nav="2" href="#watch-video">Cursos</a></li>
+                                <li><a data-scroll-nav="3" href="#clients-testmonials">Dicas</a></li>
+                                <li><a data-scroll-nav="4" href="#cta-title-1">Assine</a></li>
+                            </ul>
+                            <div class="header-meta">
+                                <div class="hm-content">
+                                    <a class="header-btn btn small colorful hover-white" href="@Url.Action("Login", "Login")">Entrar</a> <!-- .removido a classe scroll to -->
+
+                                </div><!-- .hm-content end -->
+                            </div><!-- .header-meta end -->
+                            <div class="mobile-menu-btn hamburger hamburger--slider">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </div><!-- .mobile-menu-btn -->
+                            <!-- <div class="clearfix"></div> -->
+                        </div><!-- .header-menu-and-meta end -->
+
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+
+            <div id="mobile-menu-wrap">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="mobile-menu"></div><!-- #mobile-menu end -->
+                        </div><!-- .col-md-12 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+
+            </div><!-- #mobile-menu-wrap end -->
+
+        </div><!-- #header-wrap end -->
+
+    </header><!-- #header end -->
+    <!-- Banner
+    ============================================= -->
+    <section id="banner" class="rounded-bottom" data-scroll-index="0">
+
+        <div class="banner-parallax">
+            <img src="~/Content/templateNovo/images/files/parallax-bg/img-1.jpg" alt="" />
+            <div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.3"></div><!-- .overlay-colored end -->
+            <div class="slide-content">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+
+                            <div class="banner-center-box text-white">
+                                <h1 class="anim-movebottom-seq">
+                                    <span class="colored">Estudar Faz Bem!</span> <br> Aprenda se divertindo.
+                                </h1>
+                                <div class="description anim-movebottom-seq">
+                                    Sabemos como é difícil manter a atenção e a concentração nos estudos.<br>
+                                    Por isso criamos uma forma divertida e interativa onde você estuda jogando.<br>
+                                    Conquiste seus objetivos, aprendendo e desenvolvendo  <br>
+                                    suas competências cognitivas com a gente.
+
+                                </div>
+                                <!-- <form class="signup-form anim-movebottom-seq"> -->
+                                <!-- <img src="images/general-elements/signup-form.png" alt=""> -->
+                                <!-- <div class="sf1-notifications"> -->
+                                <!-- <div class="sf1-notifications-content"></div> -->
+                                <!-- </div>  -->
+                                <!-- <div class="form-group"> -->
+                                <!-- <input type="email" placeholder="You Email"> -->
+                                <!-- <input type="submit" class="form-control" value="Sign Up"> -->
+                                <!-- </div>  -->
+                                <!-- </form> -->
+                            </div><!-- .banner-center-box end -->
+
+                        </div><!-- .col-md-8 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+
+            </div><!-- .slide-content end -->
+            <div class="separator-bottom"></div>
+        </div><!-- .banner-parallax end -->
+
+    </section><!-- #banner end -->
+
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <!-- Footer Mini
+        ============================================= -->
+    <footer id="footer-mini">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="copyrights-message text-white">2017 © <strong>Estudar Faz Bem</strong>. Todos os Direitos Reservados.</div>
+                    <ul class="social-icons rounded x5 dark hover-dark animated">
+                        <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="si-facebook" href="#"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
+                        <li><a class="si-twitter" href="https://twitter.com/Estudar_Faz_Bem"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="si-behance" href="https://www.instagram.com/estudarfazbem2016/"><i class="fa fa-instagram"></i><i class="fa fa-instagram"></i></a></li>
+                    </ul><!-- .social-icons end -->
+
+                </div><!-- .col-md-12 end -->
+            </div><!-- .row end -->
+        </div><!-- .container end -->
+
+    </footer><!-- #footer-mini end -->
+    <!-- </div> #full-container end -->
+
+    <a class="scroll-top-icon scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+
+
+
+    <!-- External JavaScripts
+    ============================================= -->
+
+
+
+    <script src="~/Content/templateNovo/js/jquery.js"></script>
+
+    <script src="~/Content/templateNovo/js/jquery-2.1.3.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.easing.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.waitforimages.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.transit.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.fitvids.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.waypoints.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.stellar.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.validate.min.js"></script>
+    <script src="~/Content/templateNovo/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Content/templateNovo/js/functions.js"></script>
+    <script src="~/Content/templateNovo/js/jRespond.min.js"></script>
+    <script src="~/Content/templateNovo/js/owl.carousel.min.js"></script>
+    <script src="~/Content/templateNovo/js/hoverIntent.js"></script>
+    <script src="~/Content/templateNovo/js/simple-scrollbar.min.js"></script>
+    <script src="~/Content/templateNovo/js/superfish.js"></script>
+    <script src="~/Content/templateNovo/js/scrollIt.min.js"></script>
+
+    <!-- Meus JavaScripts
+    ============================================= -->
+    @*<script src="~/Scripts/MyScripts/LoginRegistro.js"></script>*@
+
+
+    @*<li><a href="@Url.Action("Index", "Home")">Home</a></li>
+
+        <li><a href="@Url.Action("Login", "Login")">Login & Register</a></li>*@
+
+
+
+
+</body>
+</html>
